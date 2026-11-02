@@ -1,0 +1,7 @@
+Deployment Guide — NovaTech
+
+Production applications are deployed using Docker containers.
+Docker Compose manages multiple application services.
+Health checks are required before releasing a new application version.
+Failed deployments must be rolled back to the last stable release.
+All production deployments require approval from the engineering lead.

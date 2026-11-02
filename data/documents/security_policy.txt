@@ -1,0 +1,7 @@
+Security Policy — NovaTech
+
+All employees must enable multi-factor authentication (MFA).
+Security incident code SEC-204 identifies unauthorized account access.
+Employees must report suspected phishing emails to security@novatech.example.
+Password resets require identity verification.
+Security incidents must be reported within two hours of discovery.

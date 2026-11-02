@@ -1,0 +1,7 @@
+Technical Support — NovaTech
+
+Technical support operates Sunday through Thursday.
+Standard support hours are 9 AM to 6 PM.
+Critical incidents receive immediate escalation.
+Ticket priority P1 indicates a production outage.
+Ticket priority P2 indicates major functionality degradation.

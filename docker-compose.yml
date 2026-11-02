@@ -1,0 +1,43 @@
+services:
+
+  agent-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8004:8001"
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      HF_HOME: /app/.cache/huggingface
+    volumes:
+      - huggingface_cache:/app/.cache/huggingface
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  agent-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - python
+      - -m
+      - streamlit
+      - run
+      - frontend/streamlit_app.py
+      - --server.address
+      - 0.0.0.0
+      - --server.port
+      - "8501"
+      - --server.headless
+      - "true"
+    ports:
+      - "8505:8501"
+    environment:
+      API_URL: http://agent-api:8001
+    depends_on:
+      - agent-api
+    restart: unless-stopped
+
+volumes:
+  huggingface_cache:

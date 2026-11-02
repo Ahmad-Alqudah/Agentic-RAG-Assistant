@@ -1,0 +1,7 @@
+Project Atlas — Internal Overview
+
+Project code ATL-908 belongs to Project Atlas.
+The project manager is David Wilson.
+Project Atlas focuses on cloud infrastructure modernization.
+The approved project budget is 500000 USD.
+The planned completion date is December 15, 2026.

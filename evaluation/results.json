@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "timestamp_utc": "2026-11-01T20:41:05.000362+00:00",
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "pass_rate": 1.0,
+    "routing_accuracy": 1.0
+  },
+  "results": [
+    {
+      "question": "What is the work from home policy?",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "Remote work is permitted up to two days per week with manager approval.",
+      "retry_count": 1,
+      "sources": [
+        "employee_policy.txt",
+        "security_policy.txt",
+        "project_atlas.txt"
+      ]
+    },
+    {
+      "question": "What does SEC-204 mean?",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "SEC-204 means \"Unauthorized account access.\"",
+      "retry_count": 0,
+      "sources": [
+        "security_policy.txt",
+        "project_orion.txt",
+        "technical_support.txt"
+      ]
+    },
+    {
+      "question": "What does P1 indicate?",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "P1 indicates a production outage.",
+      "retry_count": 0,
+      "sources": [
+        "technical_support.txt",
+        "security_policy.txt",
+        "project_orion.txt"
+      ]
+    },
+    {
+      "question": "Who is the CEO of NovaTech?",
+      "expected_status": "abstained",
+      "actual_status": "abstained",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "I cannot find the answer in the provided documents.",
+      "retry_count": 1,
+      "sources": [
+        "employee_policy.txt",
+        "security_policy.txt",
+        "technical_support.txt"
+      ]
+    },
+    {
+      "question": "What is NovaTech's stock price?",
+      "expected_status": "abstained",
+      "actual_status": "abstained",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "I cannot find the answer in the provided documents.",
+      "retry_count": 1,
+      "sources": [
+        "technical_support.txt",
+        "security_policy.txt",
+        "deployment_guide.txt"
+      ]
+    },
+    {
+      "question": "What is the company founder's birthday?",
+      "expected_status": "abstained",
+      "actual_status": "abstained",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "I cannot find the answer in the provided documents.",
+      "retry_count": 1,
+      "sources": [
+        "project_orion.txt",
+        "project_atlas.txt",
+        "employee_policy.txt"
+      ]
+    },
+    {
+      "question": "What should I do about a security incident?",
+      "expected_status": "human_review",
+      "actual_status": "human_review",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "This request requires human review before an answer can be provided.",
+      "retry_count": 0,
+      "sources": [
+        "security_policy.txt",
+        "technical_support.txt",
+        "deployment_guide.txt"
+      ]
+    },
+    {
+      "question": "How do I report phishing?",
+      "expected_status": "human_review",
+      "actual_status": "human_review",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "This request requires human review before an answer can be provided.",
+      "retry_count": 0,
+      "sources": [
+        "security_policy.txt",
+        "technical_support.txt",
+        "project_atlas.txt"
+      ]
+    },
+    {
+      "question": "Can I disable MFA?",
+      "expected_status": "human_review",
+      "actual_status": "human_review",
+      "status_passed": true,
+      "keyword_passed": true,
+      "passed": true,
+      "answer": "This request requires human review before an answer can be provided.",
+      "retry_count": 0,
+      "sources": [
+        "security_policy.txt",
+        "employee_policy.txt",
+        "technical_support.txt"
+      ]
+    }
+  ]
+}

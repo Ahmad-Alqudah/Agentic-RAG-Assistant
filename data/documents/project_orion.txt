@@ -1,0 +1,7 @@
+Project Orion — Internal Overview
+
+Project code ORN-317 belongs to Project Orion.
+The project manager is Sarah Johnson.
+Project Orion develops an AI-powered customer support platform.
+The approved project budget is 750000 USD.
+The planned completion date is February 20, 2027.
